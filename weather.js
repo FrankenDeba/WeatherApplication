@@ -3,7 +3,7 @@ let main = () =>
 
     let cityName = document.getElementById("inp").value;
     let url = `https://cors-anywhere.herokuapp.com/https://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=metric&cnt=1&appid=12f6fe030d9ea2e1373700b39c04eeb2`;
-
+//tesst
     fetch(url).then((response) =>{
     return response.json();
     }).then((data)=>
