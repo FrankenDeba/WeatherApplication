@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section id="query">
+    City name: <input type="text" id="inp"><br>
+    <button onclick="main()">Show weather</button>
+
+    </section>
+    <section id="holder">
+
+        <div id="name" class = "info">Place: </div>
+        <div id="icon"class = "info"></div>
+            <div id="primary">
+        
+                
+                Temerature(in celcius): <div id="temp" class = "info"></div>&deg;
+                
+        
+                Humidity: <div id="humidity" class = "info"></div>%
+                
+                
+                pressure(in pascal): <div id="pressure" class = "info"></div>
+            </div>
+            <div id="windanddesc">
+            wind speed(m/s): <div id="wind" class = "info"></div>
+
+            description: <div id="description" class = "info"></div>
+            </div>
+            
+
+            <div id="sunriseSunset">
+                sunrise time: <div id="sunrise" class = "info"></div>
+                Sunset time: <div id="sunset" class = "info"></div>
+            </div>
+
+        </div>
+        
+
+    </section>
+    <script src="weather.js"></script>
+</body>
+</html>

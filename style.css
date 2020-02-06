@@ -1,0 +1,46 @@
+
+#query{
+    border-radius: 10px;
+    background: whitesmoke;
+    margin-bottom: 25px;
+}
+button{
+    border-radius: 2px;
+    color:slategrey
+}
+#holder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    color: white;
+    background: whitesmoke;
+    box-shadow: 5px 5px 5px darkgray;
+    background: linear-gradient(45deg,#0ABDE3,#218F76);
+}
+#primary{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+}
+div{
+    padding: 2vh 0 2vh 1vh;
+}
+#sunriseSunset{
+    display: flex;
+    flex-direction: column
+}
+@media only screen and (min-width: 500px){
+    #primary{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #holder{
+        width: 50vw;
+    }
+    #sunriseSunset{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
